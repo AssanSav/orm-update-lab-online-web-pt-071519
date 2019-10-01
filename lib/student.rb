@@ -44,4 +44,8 @@ class Student
       Student.new_from_db(row)
     end
   end
+  
+  def update 
+    sql = "SELECT "
+  end
 end
